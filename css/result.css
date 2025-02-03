@@ -1,0 +1,194 @@
+@import url(fonts.css);
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+.body-container {
+  width: 100%;
+  max-width: 768px;
+  margin: auto;
+  height: auto;
+  max-height: 100vh;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #000;
+  color: white;
+}
+
+.blank {
+  width: 100%;
+  height: 10px;
+}
+
+.headline {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgb(58, 99, 180);
+  background: linear-gradient(90deg, rgb(39, 73, 139) 0%, rgb(57, 125, 221) 100%);
+}
+
+.headline-text {
+  /* background-color: antiquewhite; */
+}
+
+.headline-text h1 {
+  font-size: 26px;
+  line-height: 100%;
+  font-weight: 700;
+  display: inline;
+  font-family: "Montserrat", sans-serif;
+}
+
+#tahun {
+  display: inline;
+}
+
+.headline-logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.group-content {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.qrcode {
+  width: 100%;
+  height: 100px;
+  padding-bottom: 10px;
+}
+
+.subhead {
+  color: rgb(135, 177, 216);
+  font-size: 10px;
+}
+
+.inline {
+  display: inline;
+}
+
+#nisn,
+#noreg {
+  display: inline;
+}
+
+#namaLengkap {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.classJurusan {
+}
+
+#jurusan,
+.gelar {
+  display: inline;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Montserrat";
+  color: #929292;
+}
+
+#universitas {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: #929292;
+  margin-bottom: 2.5rem;
+}
+
+.group {
+  padding-bottom: 1rem;
+}
+
+label {
+  font-size: 14px;
+  color: rgb(135, 177, 216);
+}
+
+h4 {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: "Poppins";
+}
+
+#inputTanggal,
+#inputBulan,
+#inputTahun {
+  display: inline-block;
+}
+
+#asalSekolah {
+  text-transform: uppercase;
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  font-family: "Poppins";
+  background-color: white;
+  color: #3d3d3d;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.card h1 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.card h4 {
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.card a {
+  color: rgb(98, 155, 207);
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: justify;
+  color: #929292;
+}
+
+@media screen and (max-width: 480px) {
+  .headline-text h1 {
+    font-size: 14px;
+  }
+
+  .headline-logo {
+    height: 6 0%;
+  }
+}
