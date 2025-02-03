@@ -1,0 +1,134 @@
+@import url(fonts.css);
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.body-container {
+  width: 100%;
+  max-width: 768px;
+  margin: auto;
+  padding: 20px 2px;
+  height: 100vh;
+  max-height: 100vh;
+  background-color: #3d3d3d;
+  color: white;
+}
+
+.web-logo {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.headline {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-weight: 600;
+  line-height: 40px;
+  font-family: "Poppins", sans-serif;
+  display: inline;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.subhead {
+  color: #929292;
+}
+
+form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: rgb(152, 195, 235);
+  padding-bottom: 15px;
+  font-weight: 500;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  background-color: #747474;
+  color: #cecece;
+  font-weight: 400;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-field input {
+  width: 100px;
+  text-align: center;
+}
+
+.input-field input[type="number"]::placeholder {
+  color: #cecece;
+}
+
+.input-field h1 {
+  font-size: 14px;
+  color: #747474;
+}
+
+.link {
+  background: linear-gradient(90deg, rgba(58, 99, 180, 1) 0%, rgba(69, 183, 252, 1) 99%, rgba(69, 146, 252, 1) 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.text-link {
+  display: inline;
+  font-weight: 500;
+}
+
+button {
+  width: 50%;
+  padding: 15px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  background-color: rgb(36, 147, 199);
+  color: white;
+}

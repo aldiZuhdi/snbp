@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seleksi Nasional Berdasarkan Prestasi</title>
+    <link rel="stylesheet" href="../css/registration.css" />
+    <link rel="web icon" href="../assets/icon/snbp.png" />
+  </head>
+  <body>
+    <div class="body-container">
+      <div class="web-logo">
+        <img src="../assets/icon/snbp.png" alt="Logo SNBP" height="100%" />
+      </div>
+      <div class="headline">
+        <h1>
+          HASIL SELEKSI SNBP
+          <h1 id="tahun"></h1>
+        </h1>
+        <h3 class="subhead">Masukkan Nomor Pendaftaran SNBP dan Tanggal Lahir</h3>
+      </div>
+      <form action="">
+        <div class="form-group">
+          <label for="">Nomor Pendaftaran</label>
+          <input type="number" name="noreg" id="noreg" autocomplete="off" required />
+        </div>
+        <div class="form-group">
+          <label for="">Tanggal Lahir</label>
+          <div class="input-field">
+            <input type="number" name="tanggal" id="inputTanggal" required autocomplete="off" maxlength="2" placeholder="Tanggal" />
+            <h1 class="slash">/</h1>
+            <input type="number" name="bulan" id="inputBulan" required autocomplete="off" placeholder="Bulan" />
+            <h1 class="slash">/</h1>
+            <input type="number" name="tahun" id="inputTahun" required autocomplete="off" maxlength="4" placeholder="Tahun" />
+          </div>
+        </div>
+        <div class="form-group">
+          <a class="link" href="https://instagram.com/aldiizhd05"
+            ><h3 class="text-link">
+              Pengumuman Hasil Seleksi SNBP
+              <h3 id="tahun" class="text-link"></h3>
+              (POF)
+            </h3></a
+          >
+        </div>
+        <div class="form-group">
+          <button type="submit">LIHAT HASIL SELEKSI</button>
+        </div>
+      </form>
+    </div>
+    <script src="../js/registrationPage.js"></script>
+  </body>
+</html>

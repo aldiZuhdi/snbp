@@ -1,0 +1,79 @@
+@import url(fonts.css);
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.body-container {
+  width: 100%;
+  max-width: 768px;
+  margin: auto;
+  height: auto;
+  max-height: 100vh;
+  padding: 20px;
+}
+
+.headline {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+input {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+  text-transform: capitalize;
+  font-weight: 300;
+  background-color: #f3f3f3;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 100px;
+  font-weight: 700;
+  background: rgb(58, 99, 180);
+  background: linear-gradient(90deg, rgba(58, 99, 180, 1) 33%, rgba(69, 183, 252, 1) 99%, rgba(69, 146, 252, 1) 100%);
+  color: white;
+}
